@@ -49,8 +49,9 @@ useEffect( () =>{
 
   return(
     <div className="App">
+    <h1 className="title">Recipe Crawler</h1>
       <form onSubmit={getSearch} className ="search-form">
-        <input className="search-bar" type="text"
+        <input className="search-bar" type="text" placeholder="Enter any recipe you want"
          value={search} 
          onChange={updateSearch}/>
         <button  className="search-btn" type="submit">search</button>
