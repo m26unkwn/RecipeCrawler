@@ -1,4 +1,4 @@
-.recipe{
+.list{
     background: #fff;
     border-radius: 5px;
     display: flex;
@@ -11,11 +11,14 @@
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
    
 }
-.recipe:hover{
+.list:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .image{
     border-radius: 5px;
     width: 50%;
+}
+.list1{
+    list-style-type: disc;
 }
 
